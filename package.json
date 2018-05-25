@@ -1,0 +1,23 @@
+{
+  "name": "metro",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "ajv": "^6.5.0",
+    "axios": "^0.18.0",
+    "heroku": "^7.0.56",
+    "konva": "^2.1.3",
+    "npm": "^6.0.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-konva": "^1.7.3",
+    "react-scripts": "1.1.4",
+    "underscore": "^1.9.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
