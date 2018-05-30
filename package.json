@@ -1,23 +1,20 @@
 {
-  "name": "metro",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "ajv": "^6.5.0",
-    "axios": "^0.18.0",
-    "heroku": "^7.0.56",
-    "konva": "^2.1.3",
-    "npm": "^6.0.1",
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2",
-    "react-konva": "^1.7.3",
-    "react-scripts": "1.1.4",
-    "underscore": "^1.9.0"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  }
+	"name": "MetroTracker",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start"
+	},
+	"dependencies": {
+		"axios": "^0.18.0",
+		"eslint": "^4.19.1",
+		"react": "16.0.0",
+		"react-dom": "^16.4.0",
+		"react-native": "^0.55.4",
+		"react-native-button": "^2.3.0",
+		"react-native-svg": "^6.3.1",
+		"react-native-table-component": "^1.1.8",
+		"react-timer-mixin": "^0.13.3",
+		"underscore": "^1.9.0"
+	}
 }
